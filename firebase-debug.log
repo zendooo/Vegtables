@@ -1,0 +1,48 @@
+[debug] [2018-03-31T09:37:00.559Z] ----------------------------------------------------------------------
+[debug] [2018-03-31T09:37:00.563Z] Command:       C:\Program Files\nodejs\node.exe C:\Users\mogabit\AppData\Roaming\npm\node_modules\firebase-tools\bin\firebase serve
+[debug] [2018-03-31T09:37:00.564Z] CLI Version:   3.17.7
+[debug] [2018-03-31T09:37:00.564Z] Platform:      win32
+[debug] [2018-03-31T09:37:00.564Z] Node Version:  v7.9.0
+[debug] [2018-03-31T09:37:00.565Z] Time:          Sat Mar 31 2018 11:37:00 GMT+0200 (Egypt Standard Time)
+[debug] [2018-03-31T09:37:00.565Z] ----------------------------------------------------------------------
+[debug] 
+[debug] [2018-03-31T09:37:00.588Z] > command requires scopes: ["email","openid","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","https://www.googleapis.com/auth/cloud-platform"]
+[debug] [2018-03-31T09:37:00.589Z] > authorizing via signed-in user
+[debug] [2018-03-31T09:37:00.592Z] > refreshing access token with scopes: ["email","https://www.googleapis.com/auth/cloud-platform","https://www.googleapis.com/auth/cloudplatformprojects.readonly","https://www.googleapis.com/auth/firebase","openid"]
+[debug] [2018-03-31T09:37:00.593Z] >>> HTTP REQUEST POST https://www.googleapis.com/oauth2/v3/token  
+ { refresh_token: '1/4x_T_-bKWP5I1rYnWV7EE_Z720Q_QTzOVSUgWKX7Gf2aBhrFZNPxup4mAUsEtpyn',
+  client_id: '563584335869-fgrhgmd47bqnekij5i8b5pr03ho849e6.apps.googleusercontent.com',
+  client_secret: 'j9iVZfS8kkCEFUPaAeJV0sAi',
+  grant_type: 'refresh_token',
+  scope: 'email https://www.googleapis.com/auth/cloud-platform https://www.googleapis.com/auth/cloudplatformprojects.readonly https://www.googleapis.com/auth/firebase openid' } 
+ Sat Mar 31 2018 11:37:00 GMT+0200 (Egypt Standard Time)
+[debug] [2018-03-31T09:37:01.250Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-31T09:37:01.435Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/projects/vegtables-54946  
+  
+ Sat Mar 31 2018 11:37:01 GMT+0200 (Egypt Standard Time)
+[debug] [2018-03-31T09:37:03.167Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-31T09:37:03.168Z] >>> HTTP REQUEST GET https://admin.firebase.com/v1/database/vegtables-54946/tokens  
+  
+ Sat Mar 31 2018 11:37:03 GMT+0200 (Egypt Standard Time)
+[debug] [2018-03-31T09:37:04.058Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-31T09:37:04.059Z] >>> HTTP REQUEST GET https://cloudresourcemanager.googleapis.com/v1/projects/vegtables-54946  
+  
+ Sat Mar 31 2018 11:37:04 GMT+0200 (Egypt Standard Time)
+[debug] [2018-03-31T09:37:05.516Z] <<< HTTP RESPONSE 200
+[info] 
+[info] === Serving from 'C:\ion2\ionic2_firebase_shopping_cart-master.old\ionic2_firebase_shopping_cart-master'...
+[info] 
+[debug] [2018-03-31T09:37:05.524Z] >>> HTTP REQUEST GET https://mobilesdk-pa.googleapis.com/v1/projects/607855071081/clients/_:getWebAppConfig  
+  
+ Sat Mar 31 2018 11:37:05 GMT+0200 (Egypt Standard Time)
+[debug] [2018-03-31T09:37:07.084Z] <<< HTTP RESPONSE 200
+[debug] [2018-03-31T09:37:07.364Z] TypeError: Cannot read property 'public' of undefined
+    at Server.<anonymous> (C:\Users\mogabit\AppData\Roaming\npm\node_modules\firebase-tools\lib\serve\hosting.js:34:17)
+    at Object.onceWrapper (events.js:293:19)
+    at emitNone (events.js:86:13)
+    at Server.emit (events.js:188:7)
+    at emitListeningNT (net.js:1290:10)
+    at _combinedTickCallback (internal/process/next_tick.js:77:11)
+    at process._tickDomainCallback (internal/process/next_tick.js:128:9)
+[error] 
+[error] Error: An unexpected error has occurred.
